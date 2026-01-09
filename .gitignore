@@ -1,0 +1,74 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders - Keep android/ since we have prebuild
+/ios
+
+# Build outputs
+build/*.apk
+build/*.aab
+
+# Exclude APKs but not the build directory itself
+# (build directory structure is useful for documentation)
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Gradle
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
+
+# SECURITY: Exclude signing credentials and keystores from git
+credentials.json
+android/keystore/*.keystore
+build/*.keystore
+build/credentials.json
+
+# Temporary
+*.tmp
+*.temp
+.cxx/
+
