@@ -37,6 +37,9 @@ A React Native coin toss app that **appears completely fair** but allows the dev
 - **Haptics:** expo-haptics
 - **Animations:** React Native Reanimated 4
 
+## 📱 DEMO
+https://github.com/user-attachments/assets/79efa4c8-1e46-41be-b86b-d6dc67755db2
+
 ## 🚀 Quick Start
 
 ### Development
